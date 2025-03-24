@@ -1,5 +1,7 @@
 # Was I part of the jschlatt purge?
 
+https://glitchyzorua.github.io/jschlattpurge/
+
 > [!IMPORTANT]
 > This project is not endorsed and/or owned by jschlatt. Some usernames in this small database could be problematic. Also, I do not speak for the users who got banned, or the streamer itself. I'm just some random dude who like making random stuff.
 > Thanks for your understanding.
