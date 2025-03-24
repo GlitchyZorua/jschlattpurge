@@ -108,7 +108,7 @@
                 // Display the result
                 const resultDiv = document.getElementById("result");
                 if (user) {
-                    resultDiv.innerHTML = `<strong>Username:</strong> ${user.username}<br><strong>Ban Reason:</strong> ${user.banReason}<br><strong>Ban Involved:</strong> ${user.banInvolved}`;
+                    resultDiv.innerHTML = `<strong>Username:</strong> ${user.username}<br><strong>Ban Reason:</strong> ${user.banReason}<br>`;
                 } else {
                     resultDiv.innerHTML = `No user found with the username "${username}".`;
                 }
