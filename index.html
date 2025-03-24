@@ -103,12 +103,12 @@
                 const users = await response.json();
 
                 // Search for the user in the array
-                const user = users.find(u => u.username.toLowerCase() === username.toLowerCase());
+                const user = users.find(u => u.username === username);
 
                 // Display the result
                 const resultDiv = document.getElementById("result");
                 if (user) {
-                    resultDiv.innerHTML = `<strong>Username:</strong> ${user.username}<br><strong>Ban Reason:</strong> ${user.banReason}`;
+                    resultDiv.innerHTML = `<strong>Username:</strong> ${user.username}<br><strong>Ban Reason:</strong> ${user.banReason}<br><strong>Ban Involved:</strong> ${user.banInvolved}`;
                 } else {
                     resultDiv.innerHTML = `No user found with the username "${username}".`;
                 }
